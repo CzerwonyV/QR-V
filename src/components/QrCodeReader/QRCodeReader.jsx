@@ -23,14 +23,6 @@ class QRCodeReader extends Component {
     return (
       <div>
         <BtnHome />
-        <div>
-        <QrReader
-          delay={300}
-          onError={this.handleError}
-          onScan={this.handleScan}
-          style={{ width: "100%" }}
-        />
-        </div>
         <div className="InputReadQrCodeContent">
           <InputGroup>
             <InputGroupAddon addonType="prepend">
@@ -42,6 +34,14 @@ class QRCodeReader extends Component {
               value={this.state.result}
             />
           </InputGroup>
+        </div>
+        <div>
+        <QrReader
+          delay={300}
+          onError={this.handleError}
+          onScan={this.handleScan}
+          style={{ width: "100%" }}
+        />
         </div>
         <div className="InputReadQrCodeContentMobile">
           <InputGroupText id="InputCreatQrCode">Le contenu du QR Code :</InputGroupText>
