@@ -1,0 +1,55 @@
+.CreatQRcodeContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.QrCode {
+    display: flex;
+    align-items: center;
+}
+
+.BtnHomeCreatQR {
+    margin-bottom: 3vh;
+}
+
+#InputCreatQrCode {
+    background-color: #03DAC5 !important;
+    border-color: #03DAC5 !important;
+}
+
+.InputCreatQrCodeContent {
+    margin-bottom: 3vh;
+}
+
+.QRcodeImg {
+    background-color: #FFF !important;
+    padding: 3vh;
+}
+
+.InputCreatQrCodeContentMobile {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .InputCreatQrCodeContent {
+        display: none;
+    }
+
+    .InputCreatQrCodeContentMobile {
+        margin-bottom: 6vh !important;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #InputCreatQrCode {
+        margin-bottom: 1vh;
+        padding-left: 3vh;
+        padding-right: 3vh;
+        font-size: 1.5rem;
+    }
+
+    #InputQRcode {
+        padding: 3vh;
+    }
+  }

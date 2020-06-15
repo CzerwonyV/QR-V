@@ -1,0 +1,44 @@
+.btn-secondary {
+    background-color: #03DAC5 !important;
+    border-color: #03DAC5 !important;
+    margin: 2vh;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #BB86FC !important;
+    border-color: #BB86FC !important;
+  }
+
+a{
+    color: black !important;
+}
+
+#HomeBtn {
+  font-size: 2rem;
+}
+
+.IconBackground {
+  color: #03DAC5;
+  font-size: 3rem;
+  margin: 7vh;
+}
+
+@media screen and (max-width: 768px) {
+  .btn-secondary {
+    padding: 2vh !important;
+    font-size: 1.5rem !important;
+  }
+
+  .QrCode {
+    width: 256px !important;
+    height: auto !important;
+  }
+
+  .InputCreatQrCodeContent {
+    margin-bottom: 6vh !important;
+  }
+
+  #HomeBtn {
+    font-size: 3.5rem !important;
+  }
+}
