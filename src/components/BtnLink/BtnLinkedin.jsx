@@ -9,7 +9,7 @@ const BtnLinkedin = () => {
     <div>
       <Button color="link">
         <a
-          href="https://www.npmjs.com/package/react-qr-reader"
+          href="https://www.linkedin.com/in/victor-veyrier-ab6948194"
           target="_blank"
           rel="noopener noreferrer"
           className=""

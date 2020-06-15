@@ -9,7 +9,7 @@ const BtnGithub = () => {
     <div>
       <Button color="link">
         <a
-          href="https://www.npmjs.com/package/react-qr-reader"
+          href="https://github.com/CzerwonyV/QR-Czer"
           target="_blank"
           rel="noopener noreferrer"
           className=""
