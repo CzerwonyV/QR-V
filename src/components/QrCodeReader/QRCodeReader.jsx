@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import QrReader from "react-qr-reader";
 import BtnHome from "../BtnLink/BtnHome";
+import { InputGroup, InputGroupText, InputGroupAddon, Input } from "reactstrap";
+import "./QRCodeReader.css";
 
 class QRCodeReader extends Component {
   state = {
@@ -28,7 +30,26 @@ class QRCodeReader extends Component {
           onScan={this.handleScan}
           style={{ width: "100%" }}
         />
-        <p>{this.state.result}</p>
+        </div>
+        <div className="InputReadQrCodeContent">
+          <InputGroup>
+            <InputGroupAddon addonType="prepend">
+              <InputGroupText id="InputCreatQrCode">Le contenu du QR Code :</InputGroupText>
+            </InputGroupAddon>
+            <Input
+              id=""
+              type="text"
+              value={this.state.result}
+            />
+          </InputGroup>
+        </div>
+        <div className="InputReadQrCodeContentMobile">
+          <InputGroupText id="InputCreatQrCode">Le contenu du QR Code :</InputGroupText>
+          <Input
+            id=""
+            type="text"
+            value={this.state.result}
+          />
         </div>
       </div>
     );

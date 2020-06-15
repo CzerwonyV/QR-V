@@ -1,0 +1,18 @@
+.InputReadQrCodeContentMobile {
+    display: none;
+}
+
+.InputReadQrCodeContent {
+    padding: 3vh;
+}
+
+@media screen and (max-width: 768px) {
+    .InputReadQrCodeContent {
+        display: none;
+    }
+
+    .InputReadQrCodeContentMobile {
+        display: block;
+        padding: 3vh;
+    }
+  }
