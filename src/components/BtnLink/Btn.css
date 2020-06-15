@@ -23,6 +23,10 @@ a{
   margin: 7vh;
 }
 
+.IconBackground:hover {
+  color: #BB86FC;
+}
+
 @media screen and (max-width: 768px) {
   .btn-secondary {
     padding: 2vh !important;
