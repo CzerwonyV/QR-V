@@ -1,5 +1,4 @@
 import React from "react";
-import BtnHome from "../BtnLink/BtnHome";
 import BtnQRCreat from "../BtnLink/BtnQRCreat";
 import BtnDocCreat from "../BtnLink/BtnDocCreat";
 import BtnQRRead from "../BtnLink/BtnQRRead";
@@ -11,7 +10,6 @@ import './Home.css';
 const Home = () => {
     return (
         <div className="BtnHomeContent">
-            <BtnHome />
             <BtnQRCreat />
             <BtnDocCreat />
             <BtnQRRead />
