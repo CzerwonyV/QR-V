@@ -10,6 +10,7 @@ import './Home.css';
 const Home = () => {
     return (
         <div className="BtnHomeContent">
+            <h1 className="TitleHome">QR-V</h1>
             <BtnQRCreat />
             <BtnDocCreat />
             <BtnQRRead />

@@ -10,3 +10,7 @@
     display: flex;
     justify-content: space-between;
 }
+
+.TitleHome {
+    color:  #03DAC5 !important;
+}
